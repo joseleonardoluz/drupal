@@ -1,0 +1,7 @@
+modulo_prueba.get_data_json:
+  title: 'getDataJson'
+  route_name: modulo_prueba.get_data_json
+  description: 'Formulario para obtener datos de una URL'
+  parent: system.admin_config_system
+  weight: 99
+

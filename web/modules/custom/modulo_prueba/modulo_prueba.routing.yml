@@ -1,0 +1,19 @@
+
+modulo_prueba.get_data_json:
+  path: '/admin/config/modulo_prueba/getdatajson'
+  defaults:
+    _form: '\Drupal\modulo_prueba\Form\getDataJson'
+    _title: 'getDataJson'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+
+modulo_prueba.prueba_controller_hello:
+  path: '/modulo_prueba/hello/{name}'
+  defaults:
+    _controller: '\Drupal\modulo_prueba\Controller\PruebaController::hello'
+    _title: 'insert'
+  requirements:
+    _permission: 'access content'
